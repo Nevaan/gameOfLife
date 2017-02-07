@@ -1,0 +1,23 @@
+.gameCanvas {
+    text-align: center;
+    margin-top: 5%;
+    margin-left:20%;
+    height: 80%;
+}
+
+.controlPanel {
+    background-color: red;
+    float: right;
+    width: 33%;
+    height: 100%;
+}
+
+.gameInfoPanel {
+    background-color: blue;
+    float: right;
+
+}
+
+canvas {
+    border:1px solid black;
+}

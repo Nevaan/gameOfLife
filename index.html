@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of life implementation</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="gameCanvas">
+    <canvas id="canvas" width="700px" height="700px"></canvas>
+
+    <div class="controlPanel">
+        <button id="startButton" onclick="startGame()">Start</button> <br/>
+        <button id="stopButton" onclick="stopGame()">Stop</button> <br/>
+        <button id="resetButton" onclick="resetBoard()">Reset board</button> <br/>
+        <button id="drawButton" onclick="enableDrawing()">Draw mode</button> <br/>
+        <button id="eraseButton" onclick="enableErasing()">Erase mode</button> <br/>
+        <input  id="interval" value="750" type="number"> <button id="setInterval" onclick="setGameInterval()">Set new interval (ms)</button>
+    </div>
+    <div class="gameInfoPanel">
+
+    </div>
+
+</div>
+
+<script src="js/canvas.js"></script>
+
+</body>
+</html>
